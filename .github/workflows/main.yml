@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: linux/x86_64
+    runs-on: [self-hosted, linux]
     steps:
       -
         name: Checkout
